@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#b40000">
+<title>NEXT TOP 18 NEWS | ताज़ा खबरें</title>
+<meta name="description" content="NEXT TOP 18 NEWS - आगरा, उत्तर प्रदेश, देश-दुनिया की ताज़ा खबरें।">
+<style>
+:root{--red:#b40000;--dark:#171717;--ink:#222;--muted:#6b7280;--line:#e5e7eb;--paper:#f4f5f7}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,"Noto Sans Devanagari",sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1160px,94%);margin:auto}
+.top{background:#171717;color:#eee;font-size:13px;padding:8px 0}.top .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.brandbar{background:#fff;padding:18px 0;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:13px}.logo{width:58px;height:58px;border-radius:10px;background:var(--red);color:#fff;display:grid;place-items:center;font-weight:900;font-size:24px;box-shadow:0 4px 12px #b4000033}.brand h1{font-size:clamp(23px,4vw,34px);margin:0;font-weight:900;letter-spacing:-.7px}.brand h1 span{color:var(--red)}.tag{margin:4px 0 0;color:var(--muted);font-size:13px}
+nav{background:var(--red);color:#fff}nav .wrap{display:flex;align-items:center;gap:0;overflow:auto;white-space:nowrap}nav a{padding:13px 15px;font-size:14px;font-weight:700}nav a:hover{background:#850000}
+.breaking{background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:stretch;margin:14px auto 18px;overflow:hidden;border-radius:5px}.breaking b{background:#171717;color:#fff;padding:12px 15px;white-space:nowrap}.breaking marquee{padding:12px 10px;color:#333;font-size:14px}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:20px}.section-title{display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid var(--red);margin:0 0 14px;padding-bottom:9px}.section-title h2{font-size:21px;margin:0}.section-title small{color:var(--muted)}
+.feature{display:grid;grid-template-columns:1.1fr 1fr;background:#fff;border-radius:7px;overflow:hidden;margin-bottom:18px;min-height:240px}.feature img{width:100%;height:100%;min-height:240px;object-fit:cover;background:#ddd}.feature .txt{padding:22px}.badge{display:inline-block;background:#ffe5e5;color:var(--red);font-size:12px;font-weight:800;padding:5px 9px;border-radius:3px}.feature h2{font-size:25px;line-height:1.35;margin:12px 0}.meta{font-size:12px;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.card{background:#fff;border-radius:7px;overflow:hidden;border:1px solid #eee;transition:.15s}.card:hover{transform:translateY(-2px);box-shadow:0 7px 20px #0000000d}.card img{width:100%;height:175px;object-fit:cover;background:#e5e7eb}.card .body{padding:13px}.card h3{font-size:17px;line-height:1.45;margin:9px 0}.excerpt{font-size:13px;color:#555;line-height:1.6;margin:0 0 10px}
+aside .box{background:#fff;border-radius:7px;padding:16px;margin-bottom:16px}.box h3{margin:0 0 12px;padding-bottom:9px;border-bottom:2px solid var(--red);font-size:18px}.catlist{display:grid;gap:1px}.catlist a{padding:10px 0;border-bottom:1px solid #eee;font-size:14px}.catlist a:after{content:"›";float:right;color:var(--red);font-weight:bold}
+.search{display:flex;gap:6px}.search input{min-width:0;flex:1;padding:11px;border:1px solid var(--line);border-radius:4px}.search button,.more{background:var(--red);color:white;border:0;border-radius:4px;padding:10px 13px;font-weight:bold;cursor:pointer}
+.morewrap{text-align:center;padding:20px}.status{padding:22px;text-align:center;color:var(--muted);background:#fff;border-radius:7px;grid-column:1/-1}
+footer{margin-top:30px;background:#171717;color:#ddd;padding:28px 0;text-align:center;font-size:13px}footer strong{color:white}.note{font-size:12px;color:#777;line-height:1.5}
+@media(max-width:800px){.layout{grid-template-columns:1fr}aside{display:grid;grid-template-columns:1fr 1fr;gap:12px}aside .box{margin:0}.feature{grid-template-columns:1fr}.feature img{height:220px;min-height:0}.feature .txt{padding:16px}}
+@media(max-width:520px){.cards{grid-template-columns:1fr 1fr;gap:9px}.card img{height:120px}.card .body{padding:9px}.card h3{font-size:14px}.excerpt{display:none}.feature h2{font-size:20px}.logo{width:48px;height:48px}.brandbar{padding:13px 0}aside{grid-template-columns:1fr}.top .wrap{font-size:11px}}
+</style>
+</head>
+<body>
+<div class="top"><div class="wrap"><span>ताज़ा खबरों के लिए जुड़े रहें</span><span id="today"></span></div></div>
+<header class="brandbar"><div class="wrap brand">
+  <div class="logo"><img src="C:\Users\anshr\Desktop\next_top_18\WhatsApp Image 2026-11-22 at 9.26.06 PM.jpeg" width="50"> </div><div><h1><span>NEXT TOP 18</span> NEWS</h1><p class="tag">सच, सबसे पहले • आपकी अपनी न्यूज़ वेबसाइट</p></div>
+</div></header>
+<nav><div class="wrap">
+<a href="#home">होम</a><a href="#latest">ताज़ा खबरें</a><a href="#pilibhit">पीलीभीत</a><a href="#tiger reserve">टाइगर रिजर्व</a><a href="#advertisment">विज्ञापन</a><a href="#crime">क्राइम</a><a href="#education">शिक्षा</a><a href="#sports">खेल</a><a href="#politics">राजनीतिक खबरें</a>
+</div></nav>
+<div class="wrap">
+<div class="breaking"><b>🔴 ब्रेकिंग न्यूज़</b><marquee id="ticker" scrollamount="4">ताज़ा खबरें लोड हो रही हैं...</marquee></div>
+<div class="layout" id="home">
+<main>
+<div class="section-title"><h2>आज की बड़ी खबरें</h2><small>अपडेटेड न्यूज़</small></div>
+<div id="featured"><div class="status">आपके Blogger से खबरें लोड हो रही हैं...</div></div>
+<div class="section-title" id="latest"><h2>ताज़ा खबरें</h2><small>NEXT TOP 18 NEWS</small></div>
+<div class="cards" id="posts"><div class="status">कृपया प्रतीक्षा करें...</div></div>
+<div class="morewrap"><a class="more" href="https://nexttop18.blogspot.com/" target="_blank" rel="noopener">सभी खबरें देखें</a></div>
+</main>
+<aside>
+<div class="box"><h3>खबर खोजें</h3><form class="search" id="searchForm"><input id="searchInput" placeholder="खबर का नाम लिखें"><button>खोजें</button></form></div>
+<div class="box"><h3>न्यूज़ कैटेगरी</h3><div class="catlist">
+<a href="https://nexttop18.blogspot.com/search/label/पीलीभीत">पीलीभीत</a><a href="https://nexttop18.blogspot.com/search/label/टाइगर रिजर्व">टाइगर रिजर्व</a><a href="https://nexttop18.blogspot.com/search/label/विज्ञापन">विज्ञापन</a><a href="https://nexttop18.blogspot.com/search/label/क्राइम">क्राइम</a><a href="https://nexttop18.blogspot.com/search/label/शिक्षा">शिक्षा</a><a href="https://nexttop18.blogspot.com/search/label/खेल">खेल</a><a href="https://nexttop18.blogspot.com/search/label/राजनीतिक खबरें">राजनीतिक खबरें</a>
+</div></div>
+</aside>
+</div>
+</div>
+<footer><div class="wrap"><strong>NEXT TOP 18 NEWS</strong><p>ताज़ा खबरें • निष्पक्ष खबरें • आपकी आवाज़</p><p>© <span id="year"></span> NEXT TOP 18 NEWS. सर्वाधिकार सुरक्षित।</p></div></footer>
+<script>
+const BLOG='https://nexttop18.blogspot.com';
+document.getElementById('today').textContent=new Date().toLocaleDateString('hi-IN',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
+document.getElementById('year').textContent=new Date().getFullYear();
+function plain(s){const d=document.createElement('div');d.innerHTML=s||'';return (d.textContent||d.innerText||'').replace(/\s+/g,' ').trim()}
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function getImg(entry){let c=entry.content?.$t||entry.summary?.$t||'';let m=c.match(/<img[^>]+src=["']([^"']+)/i);return (entry.media$thumbnail&&entry.media$thumbnail.url)|| (m&&m[1]) || 'https://placehold.co/800x450/b40000/ffffff?text=NEXT+TOP+18+NEWS'}
+function render(data){
+ const entries=data.feed.entry||[];const items=entries.map(e=>({title:e.title.$t,link:(e.link||[]).find(x=>x.rel==='alternate')?.href||BLOG,date:e.published?.$t||'',content:e.content?.$t||e.summary?.$t||'',labels:(e.category||[]).map(c=>c.term),img:getImg(e)}));
+ const ticker=document.getElementById('ticker');ticker.textContent=items.slice(0,8).map(x=>x.title).join('   ◆   ')||'अभी कोई खबर प्रकाशित नहीं है।';
+ if(!items.length){document.getElementById('posts').innerHTML='<div class="status">अभी कोई खबर नहीं मिली। Blogger पर पहली पोस्ट प्रकाशित करें।</div>';return}
+ const f=items[0];document.getElementById('featured').innerHTML=`<a class="feature" href="${esc(f.link)}" target="_blank" rel="noopener"><img src="${esc(f.img)}" alt=""><div class="txt"><span class="badge">मुख्य खबर</span><h2>${esc(f.title)}</h2><p class="excerpt">${esc(plain(f.content).slice(0,210))}...</p><div class="meta">${new Date(f.date).toLocaleDateString('hi-IN')} • पूरी खबर पढ़ें →</div></div></a>`;
+ document.getElementById('posts').innerHTML=items.slice(1,13).map(x=>`<article class="card"><a href="${esc(x.link)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(x.img)}" alt=""><div class="body">${x.labels[0]?`<span class="badge">${esc(x.labels[0])}</span>`:''}<h3>${esc(x.title)}</h3><p class="excerpt">${esc(plain(x.content).slice(0,115))}...</p><div class="meta">${new Date(x.date).toLocaleDateString('hi-IN')} • पूरी खबर पढ़ें</div></div></a></article>`).join('');
+}
+document.getElementById('searchForm').addEventListener('submit',e=>{e.preventDefault();const q=document.getElementById('searchInput').value.trim();if(q)window.open(BLOG+'/search?q='+encodeURIComponent(q),'_blank','noopener')});
+const s=document.createElement('script');s.src=BLOG+'/feeds/posts/default?alt=json-in-script&max-results=14&callback=render';s.onerror=()=>{document.getElementById('posts').innerHTML='<div class="status">खबरें लोड नहीं हो सकीं। Blogger Feed की अनुमति जाँचें।</div>'};document.body.appendChild(s);
+</script>
+</body></html>
